@@ -1,18 +1,48 @@
-body{background-color: #F3F3F3;
-    margin: 0%;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 200spx;
+    margin-left: 200px;
+    /* background: rgb(230, 231, 231) */
 }
-.contacts{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-.penhub{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-}
-#mypic{    
-    border-radius: 50%;
-    width: 120px;
+.span-col-2{grid-column: span 2 / auto;}
+#photo{
+    width: 150px;
     height: auto;
+    border-radius: 50%;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+}
+.tools{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#portfolio{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    margin-bottom: 100px;
+}
+.secondwork{
+display: flex;    
+justify-content: flex-end;
+margin-right: 60px;
+}
+.works{
+    width: 1200px;
+    height: auto;
+    margin-right: 200px;
+    padding-left: 50px;
+    padding-right: 0%;
 }
