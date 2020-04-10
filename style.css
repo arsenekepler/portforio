@@ -1,18 +1,76 @@
-body{background-color: #F3F3F3;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 200spx;
+    margin-left: 200px;
+    /* background: rgb(230, 231, 231) */
+}
+.span-col-2{grid-column: span 2 / auto;
+}
+#photo{width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+    
+.navbar{
+    display:flex;
+    flex-direction: row;
+}
+.tools{
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+footer{
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 80px;
     margin: 0%;
 }
-.contacts{
+#portfolio{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
+    padding-top: 100px;
+    
 }
-.penhub{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+.navbar{
+    margin-bottom: 100px;
 }
-#mypic{    
-    border-radius: 50%;
-    width: 120px;
-    height: auto;
+.secondwork{
+display: flex;    
+justify-content: flex-end;
+margin-left: 100px;
+padding-top: 30px;
+margin-right: -40px;
 }
+.achieve{
+    padding-bottom: 50px;
+}
+
+h1{
+    margin: 0%;
+}   
+.works{
+    display: grid;
+
+    text-align: center;
+    justify-items: center;
+}
+.projectimage{
+    width: 50%;
+}
+.string {
+    border-style:inherit;
+    border-width:10px;
+    padding: 100px, 20px, 0px, 20px;
+
+}
+
+
+
+
