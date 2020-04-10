@@ -57,9 +57,20 @@ h1{
 }   
 .works{
     display: grid;
+
     text-align: center;
     justify-items: center;
 }
 .projectimage{
     width: 50%;
 }
+.string {
+    border-style:inherit;
+    border-width:10px;
+    padding: 100px, 20px, 0px, 20px;
+
+}
+
+
+
+
