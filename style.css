@@ -65,10 +65,18 @@ h1{
     width: 50%;
 }
 .string {
-    border-style:inherit;
-    border-width:10px;
-    padding: 100px, 20px, 0px, 20px;
+    border-color: #F3F3F3;
+    border-style:solid;
+    border-width: 10px;
+    margin: 20px 40% 40% 40%;
+    padding: 0px  40px 20px 40px;
+    width: 250px;
+    height: 200px;
+}
 
+.form-container {
+    width: 350px;
+    background-color: blanchedalmond;
 }
 
 

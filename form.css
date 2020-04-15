@@ -1,0 +1,32 @@
+.form-container {
+    display: block;
+    width: 300px;
+    margin: 100px auto;
+}
+.forgot_password {
+    padding-top: 20px;
+}
+.forgot_password h4 {
+display: inline;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    border:1px dotted grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: -5px;
+}
+
+form {
+border-style: solid;
+padding: 15px;
+border-radius: 5px;
+border-color: grey;
+}
+#form-ends {
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+}   
